@@ -95,23 +95,25 @@ h2 {
     text-align: center; 
 }
 .menu2 {
-   float:right;
+   float:left;
     padding-left: 200px;
 }
 .menu2 li{
-   float: left;
-    line-height: 20px;
+    float: left;
+    line-height: 40px;
     color: #e3b477;
-    margin-left: 10px;
-    font-size: 14px;
+    margin: 20px;
+    font-size: 20px;
     text-transform: capitalize;
-    font-weight: bold;
+    font-weight: bolder;
     box-sizing: content-box;
 }
 .menu2 p{
+    margin: 10px;
     color: black;
     font-weight: bold;
     text-align: left;
+    font-size: 10px;
 }
 .main4 {
     text-align: center;
@@ -127,27 +129,27 @@ h2 {
     height: 620px;
 }
 .item_skills1 h3{
+    float: left;
     margin-left: 420px;
     color:dimgray;
         font-size: 20px;
     text-transform: uppercase;
 }
 .item_skills1 p{
+    float: left;
     margin-left: 420px;
     padding-top: 10px;
     color:black;
     font-size: 10px;
 }
 .item_skills2 h4{
-    float: right;
-    margin-right: 50%;
+    float: left;
     color:dimgray;
     font-size: 20px;
 }
 .item_skills2 p{
     padding-top: 10px;
-    float: right;
-    margin-right: 50%;
+    float: left;
     color:black;
     font-size: 10px;
     }
@@ -164,7 +166,8 @@ h2 {
     font-size: 10px;
 }
 .button1 input{
-    
+    margin-top: 10px;
+    margin-left: 420px;
     height: 40px;
     text-align: center;
     border: 2px solid;
@@ -172,8 +175,6 @@ h2 {
     border-radius: 5px;
     color: white;
     font-size: 13px;
-    padding: 5px 5px;
-    margin: 5px 5px;
 }
 .main5 {
     text-align: center;
@@ -225,16 +226,15 @@ h2 {
     color:black;
     font-size: 14px;}
 
-.item_skills7 h4{
-    padding-top: 20px;
-    margin-left: 400px;
+.item_skills7 span{
+    padding: 450px;
     color:dimgray;
     font-size: 20px;}
-.item_skills7 p{
-    padding-top: 20px;
-    padding-left: 800px;
-    color:black;
-    font-size: 14px;    }
+.item_skills8 span{
+    padding: 450px;
+    
+    color:dimgray;
+    font-size: 20px;    }
 .main6 {
     width: 100%;
     height: 30%;
@@ -242,15 +242,13 @@ h2 {
     text-align: center; 
 }
 .menu3 {
-   float:right;
-    padding-left: 200px;
+   float:left;
+    padding-left:600px;
 }
 .menu3 li{
-   float: right;
-    line-height: 20px;
-    color: #e3b477;
-    padding-right: 60px;
-    margin-left: 20px;
+   float: left;
+    line-height: 40px;
+    color: #e3b477;    
     font-size: 20px;
     text-transform: capitalize;
     font-weight: bold;
@@ -258,7 +256,7 @@ h2 {
 }
 .main7 {
     width: 100%;
-    height: 30%;
+    height: 40%;
     text-align: center; 
 }
 .main7 p{
@@ -266,58 +264,56 @@ h2 {
     padding: 15px;
 }
 .main8 {
-    text-align: center;
-    padding-bottom: 30px;
     background: url(../img/фони.png) center/cover no-repeat;
-    padding-top: 50px;
-    margin-top: 40px;
-    color: aliceblue;
-}
+    height: 40%;
+    }
 .main8 h2{
-    color: aliceblue;
+    text-align: center;
+    color: white;
 }
 .main8 p{
-    margin-top: 20px;
-}
-.menu9 ul{
-    color: aliceblue;
-    font-size: 16px;
-    text-transform: uppercase;
-    padding: 30px;
-}
-.menu9 h3{
-    font-weight: bold;
+    text-align: center;
     font-size: 20px;
 }
-.menu9 input{
-    height: 50px;
-    width: 180px;
-    text-align: center;
-    border: 2px solid darkolivegreen ;
-    background: white;
-    border-radius: 5px;
-    color: #7d7682 ;
-    font-size: 13px;
-    margin: 10px 10px;
+.main8 img{
+    margin-left: 48%;
 }
-.menu9 textarea{
+.menu91 li{
+    margin: 20px;
+    float: left;
+    margin-left: 300px;
+    font-size: 20px;
+}
+.menu92 p{
+    font-size: 20px;
+    color: white;
+    }
+.menu92 input{
+    border: 2px solid darkolivegreen;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+.menu92 textarea{
     height: 120px;
     width: 400px;
-    border: 2px solid darkolivegreen ;
-    background: white;
+    border: 2px solid darkolivegreen;
     border-radius: 5px;
-    color: #7d7682 ;
-    font-size: 13px;
-    margin: 5px 5px;
+    text-align: center;
 }
-.button2{
+.button2 input{
     width: 100px;
+    margin-left: 48%;
     background: none;
     border-radius: 5px;
     color: white;
     padding: 5px;
-    margin: 5px;
     border: 2px solid antiquewhite ;
+}
+.menu93 a{
+    float: left;
+    margin-left: 200px;
+    max-width: 400px;
 }
 .map {
     width: 100%;
